@@ -1,10 +1,9 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class ChunkBehavior : MonoBehaviour
 {
-    private const int CHUNK_SIZE = 10;
+    private const int CHUNK_SIZE = 16;
     private const int SURFACE_HEIGHT = 2;
 
     private List<GameObject> _voxels = new List<GameObject>();
